@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtecBookApi", "EtecBookApi\EtecBookApi.csproj", "{54443BF4-D1A6-48C0-9C55-89D9F3AFABFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtecBookAPI", "EtecBookAPI\EtecBookAPI.csproj", "{11193781-9485-4142-A4D0-F6F771254632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54443BF4-D1A6-48C0-9C55-89D9F3AFABFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54443BF4-D1A6-48C0-9C55-89D9F3AFABFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54443BF4-D1A6-48C0-9C55-89D9F3AFABFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54443BF4-D1A6-48C0-9C55-89D9F3AFABFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11193781-9485-4142-A4D0-F6F771254632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11193781-9485-4142-A4D0-F6F771254632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11193781-9485-4142-A4D0-F6F771254632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11193781-9485-4142-A4D0-F6F771254632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

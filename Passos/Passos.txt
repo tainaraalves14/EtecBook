@@ -8,7 +8,6 @@ css
 cd EtecBookUI
 ng g c components\login
 
-{ path: 'register', component: RegisterComponent} - erro
 
 Ctrl U get Album Boostrap
 

@@ -1,4 +1,4 @@
-namespace EtecBookApi;
+namespace EtecBookAPI;
 
 public class WeatherForecast
 {

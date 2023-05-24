@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace EtecBookApi.Controllers;
+namespace EtecBookAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
