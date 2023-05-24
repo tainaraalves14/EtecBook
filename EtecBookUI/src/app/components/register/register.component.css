@@ -1,42 +1,34 @@
-:host-context(body) 
-{
+:host-context(body) {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.form-signin 
-{
+.form-signin {
     text-align: center;
     max-width: 400px;
     padding: 0 15px;
 }
 
-.form-signin .form-floating:focus-within 
-{
-  z-index: 2;
+.form-signin .form-floating:focus-within {
+    z-index: 2;
 }
 
-
-.form-signin input[id="name"] 
-{
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-} 
-
-.form-signin input[id="email"] 
-{
-  border-radius: 0;
+.form-signin input[id="name"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] 
-{
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.form-signin input[type="email"] {
+    border-radius: 0;
 }
 
-.border-text
-{
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.border-text{
     position: relative;
     margin-top: 20px;
     height: 25px;
@@ -44,9 +36,8 @@
     color: var(--bs-body-color);
 }
 
-.border-text::after
-{
-    content: "Já Possui uma Conta?";
+.border-text::after{
+    content: "Já tem uma conta ?";
     position: absolute;
     background-color: var(--bs-body-bg);
     top: -13px;

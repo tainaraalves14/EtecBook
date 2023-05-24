@@ -10,13 +10,12 @@ export class LoginComponent {
 
   loginForm!: FormGroup;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder){}
 
   ngOnInit(): void{
     this.loginForm = this.fb.group({
-      email: ['', Validators.required ],
-      password: ['', Validators.required ]
+      email: ['',Validators.required],
+      password: ['', Validators.required]
     });
   }
-
 }

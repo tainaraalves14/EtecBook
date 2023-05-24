@@ -1,46 +1,38 @@
-:host-context(body) 
-{
+:host-context(body) {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.form-signin 
-{
+.form-signin {
     text-align: center;
     max-width: 400px;
     padding: 0 15px;
 }
 
-.form-signin .form-floating:focus-within 
-{
-  z-index: 2;
+.form-signin .form-floating:focus-within {
+    z-index: 2;
 }
 
-.form-signin input[id="email"] 
-{
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+.form-signin input[id="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] 
-{
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
-.forgetPass
-{
+.forgetPass{
     text-decoration: none;
 }
 
-.forgetPass:hover
-{
+.forgetPass:hover{
     text-decoration: underline;
 }
 
-.border-text
-{
+.border-text{
     position: relative;
     margin-top: 20px;
     height: 25px;
@@ -48,12 +40,13 @@
     color: var(--bs-body-color);
 }
 
-.border-text::after
-{
-    content: "Novo Por Aqui";
+.border-text::after{
+    content: "Novo por aqui ?";
     position: absolute;
     background-color: var(--bs-body-bg);
     top: -13px;
     left: 33.3%;
     padding: 0 10px;
 }
+
+
