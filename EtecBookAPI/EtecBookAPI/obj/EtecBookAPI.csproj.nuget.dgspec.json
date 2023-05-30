@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj": {}
+    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj": {
+    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj",
-        "projectName": "EtecBookAPI",
-        "projectPath": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookApi.csproj",
+        "projectName": "EtecBookApi",
+        "projectPath": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookApi.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
